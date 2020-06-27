@@ -330,7 +330,6 @@ public class RockKnappingRecipies {
                 }
             }
         }
-        System.out.println(recipe);
         recipies.add(new Recipe(recipe, b));
     }
 

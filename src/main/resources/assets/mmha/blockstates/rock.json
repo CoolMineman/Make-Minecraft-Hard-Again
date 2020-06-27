@@ -1,0 +1,19 @@
+{
+    "variants": {
+        "facing=east": {
+            "model": "mmha:block/rock"
+        },
+        "facing=south": {
+            "model": "mmha:block/rock",
+            "y": 90
+        },
+        "facing=west": {
+            "model": "mmha:block/rock",
+            "y": 180
+        },
+        "facing=north": {
+            "model": "mmha:block/rock",
+            "y": 270
+        }
+    }
+}

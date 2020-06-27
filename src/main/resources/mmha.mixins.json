@@ -6,7 +6,8 @@
   "mixins": [
     "BalanceSprinting",
     "ShieldBalance",
-    "TweekStoneMiningSpeed"
+    "TweekStoneMiningSpeed",
+    "RockGeneration"
   ],
   "client": [
     "ExampleMixin"
