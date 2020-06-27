@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "S",
+        "I"
+    ],
+    "key": {
+        "S": {
+            "item": "mmha:stone_axe_head"
+        },
+        "I": {
+            "item": "minecraft:stick"
+        }
+    },
+    "result": {
+        "item": "minecraft:stone_axe",
+        "count": 1
+    }
+}
