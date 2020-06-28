@@ -1,6 +1,7 @@
 package io.github.coolmineman.makeminecrafthardagain.rock;
 
 import io.github.cottonmc.cotton.gui.widget.WSprite;
+import io.github.cottonmc.cotton.gui.widget.WWidget;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.MinecraftClient;
@@ -28,7 +29,15 @@ public class WKnapButton extends WSprite {
 
     @Environment(EnvType.CLIENT)
 	@Override
-	public void onClick(int x, int y, int button) {
+	public void onMouseMove(int x, int y) {
+        if (this.yes.yes.mouseDown && !yes.knapped[knapx][knapy]) {
+            MinecraftClient.getInstance().getSoundManager().play(PositionedSoundInstance.master(SoundEvents.UI_BUTTON_CLICK, 1.0F));
+            this.yes.knapped[knapx][knapy] = true;
+        }
+    }
+
+    @Override
+    public void onClick(int x, int y, int button) {
         if (!yes.knapped[knapx][knapy]) {
             MinecraftClient.getInstance().getSoundManager().play(PositionedSoundInstance.master(SoundEvents.UI_BUTTON_CLICK, 1.0F));
             this.yes.knapped[knapx][knapy] = true;

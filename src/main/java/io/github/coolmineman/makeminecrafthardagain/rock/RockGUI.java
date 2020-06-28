@@ -9,6 +9,8 @@ import net.minecraft.text.LiteralText;
 import net.minecraft.util.Identifier;
 
 public class RockGUI extends LightweightGuiDescription {
+    public RockCottonClientScreen yes;
+
     boolean[][] knapped = new boolean[5][5];
 
     public RockGUI() {
