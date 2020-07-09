@@ -15,8 +15,8 @@ public class TweekStoneMiningSpeed {
 
     @Inject(method = "getMiningSpeedMultiplier", at = @At("HEAD"), cancellable = true)
     public void getMiningSpeedMultiplier(CallbackInfoReturnable<Float> yes) {
-        if (miningLevel <= 2) {
-            yes.setReturnValue(0f);
+        if (miningLevel <= 1) {
+            yes.setReturnValue(1f);
         }
     }
 }

@@ -7,10 +7,9 @@
     "BalanceSprinting",
     "ShieldBalance",
     "TweekStoneMiningSpeed",
-    "RockGeneration"
-  ],
-  "client": [
-    "ExampleMixin"
+    "RockGeneration",
+    "GenerateCopperOres",
+    "BuffIronOre"
   ],
   "injectors": {
     "defaultRequire": 1
