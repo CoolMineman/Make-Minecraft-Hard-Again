@@ -1,6 +1,17 @@
 # Make Minecraft Hard Again
 
-Make Minecraft Hard Again is a mod that tries to fix some unbalanced features of vanilla and adds new features such as rock knapping.
+Make Minecraft Hard Again is a mod that tries to fix some unbalanced features of vanilla and adds new features such as rock knapping. It is configurable through a Modmenu config GUI or through a JSON file.
+
+## Feature Highlights
+
+Rock
+![Rock](https://raw.githubusercontent.com/CoolMineman/Make-Minecraft-Hard-Again/master/epicfolderepicyes/stone.png)
+
+Knap The Rock!
+![Knapping](https://raw.githubusercontent.com/CoolMineman/Make-Minecraft-Hard-Again/master/epicfolderepicyes/knapping.png)
+
+Copper Ore
+![Copper Ore](https://raw.githubusercontent.com/CoolMineman/Make-Minecraft-Hard-Again/master/epicfolderepicyes/epic%20ore.png)
 
 ## Setup
 
