@@ -59,7 +59,7 @@ public class WKnapRecipe extends WItem {
             BackgroundPainter.SLOT.paintBackground(x, y, this);
         }
         if (item.getCount() > 1)
-            mc.textRenderer.draw(matrices, "x" + Integer.toString(item.getCount()), x, y + 20, 0x000000);
+            mc.textRenderer.draw(matrices, "x" + Integer.toString(item.getCount()), x, y + 20f, 0x000000);
     }
     
     @Override

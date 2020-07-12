@@ -7,11 +7,13 @@
     "item.mmha.stone_shovel_head": "Stone Shovel Head",
     "item.mmha.stone_sword_head": "Stone Sword Head",
     "item.mmha.rock": "Rock",
+    
     "block.mmha.copper_ore": "Native Copper Ore",
 
-    "text.autoconfig.mmha.title": "Make Minecraft Hard Again Options",
+    "text.autoconfig.mmha.title": "Make Minecraft Hard Again Options (Some Options May Require a Restart)",
     "text.autoconfig.mmha.option.balanceSprinting": "Balance Sprinting",
     "text.autoconfig.mmha.option.buffIronOre": "Buff Iron Ore",
+    "text.autoconfig.mmha.option.generateCopperOres": "Generate Copper Ores",
     "text.autoconfig.mmha.option.rockGeneration": "Rock Generation",
     "text.autoconfig.mmha.option.shieldBalance": "Balance Shield",
     "text.autoconfig.mmha.option.tweekStoneMiningSpeed": "Make Bad Tools Bad"
