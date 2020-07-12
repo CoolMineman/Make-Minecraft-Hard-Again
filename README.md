@@ -1,4 +1,6 @@
-# Fabric Example Mod
+# Make Minecraft Hard Again
+
+Make Minecraft Hard Again is a mod that tries to fix some unbalanced features of vanilla and adds new features such as rock knapping.
 
 ## Setup
 
