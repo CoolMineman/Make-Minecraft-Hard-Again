@@ -6,6 +6,7 @@ import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 
+import io.github.coolmineman.makeminecrafthardagain.MMHA;
 import net.minecraft.entity.player.HungerManager;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.world.Difficulty;
@@ -22,6 +23,7 @@ public class BalanceSprinting {
 
     @Inject(method = "update", at = @At("TAIL"))
     public void update(PlayerEntity player, CallbackInfo no) {
+        if (!MMHA.CONFIG.balanceSprinting) return;
         if (player.isSprinting()) {
             if (tickCounter >= 100) {
                 Difficulty difficulty = player.world.getDifficulty();

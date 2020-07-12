@@ -1,10 +1,18 @@
 {
     "item.mmha.copper_lump": "Native Copper Lump",
+    "item.mmha.copper_pickaxe": "Native Copper Pickaxe",
     "item.mmha.stone_axe_head": "Stone Axe Head",
     "item.mmha.stone_hoe_head": "Stone Hoe Head",
     "item.mmha.stone_pickaxe_head": "Stone Pickaxe Head",
     "item.mmha.stone_shovel_head": "Stone Shovel Head",
     "item.mmha.stone_sword_head": "Stone Sword Head",
     "item.mmha.rock": "Rock",
-    "block.mmha.copper_ore": "Native Copper Ore"
+    "block.mmha.copper_ore": "Native Copper Ore",
+
+    "text.autoconfig.mmha.title": "Make Minecraft Hard Again Options",
+    "text.autoconfig.mmha.option.balanceSprinting": "Balance Sprinting",
+    "text.autoconfig.mmha.option.buffIronOre": "Buff Iron Ore",
+    "text.autoconfig.mmha.option.rockGeneration": "Rock Generation",
+    "text.autoconfig.mmha.option.shieldBalance": "Balance Shield",
+    "text.autoconfig.mmha.option.tweekStoneMiningSpeed": "Make Bad Tools Bad"
 }

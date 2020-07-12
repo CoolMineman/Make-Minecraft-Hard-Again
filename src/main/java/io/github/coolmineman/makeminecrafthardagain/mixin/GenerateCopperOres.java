@@ -18,6 +18,7 @@ import net.minecraft.world.gen.GenerationStep;
 public class GenerateCopperOres {
     @Inject(method = "addDefaultOres", at = @At("HEAD"))
     private static void addDefaultOres(Biome biome, CallbackInfo yes) {
+        if (!MMHA.CONFIG.generateCopperOres) return;
         biome.addFeature(GenerationStep.Feature.UNDERGROUND_ORES, Feature.ORE.configure(new OreFeatureConfig(OreFeatureConfig.Target.NATURAL_STONE, MMHA.COPPER_ORE.getDefaultState(), 17)).createDecoratedFeature(Decorator.COUNT_RANGE.configure(new RangeDecoratorConfig(20, 0, 0, 128))));
     }
 }

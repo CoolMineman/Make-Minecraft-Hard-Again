@@ -6,6 +6,8 @@ import io.github.coolmineman.makeminecrafthardagain.copper.CopperPickaxe;
 import io.github.coolmineman.makeminecrafthardagain.rock.KnappingConsumer;
 import io.github.coolmineman.makeminecrafthardagain.rock.RockBlock;
 import io.github.coolmineman.makeminecrafthardagain.rock.RockItem;
+import me.sargunvohra.mcmods.autoconfig1u.AutoConfig;
+import me.sargunvohra.mcmods.autoconfig1u.serializer.GsonConfigSerializer;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.network.ServerSidePacketRegistry;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -20,6 +22,14 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 
 public class MMHA implements ModInitializer {
+	public static final MMHAAutoConfig CONFIG;
+
+	static {
+		AutoConfig.register(MMHAAutoConfig.class, GsonConfigSerializer::new);
+		CONFIG = AutoConfig.getConfigHolder(MMHAAutoConfig.class).getConfig();
+	}
+
+
 	public static final Item ROCK = new RockItem(new Item.Settings().group(ItemGroup.MISC));
 	public static final Item STONE_AXE_HEAD = new Item(new Item.Settings().group(ItemGroup.MISC));
 	public static final Item STONE_SHOVEL_HEAD = new Item(new Item.Settings().group(ItemGroup.MISC));
@@ -56,7 +66,5 @@ public class MMHA implements ModInitializer {
 		Registry.register(Registry.BLOCK, new Identifier("mmha", "rock"), ROCK_BLOCK);
 		Registry.register(Registry.BLOCK, new Identifier("mmha", "copper_ore"), COPPER_ORE);
 		Registry.register(Registry.ITEM, new Identifier("mmha", "copper_ore"), new BlockItem(COPPER_ORE, new Item.Settings().group(ItemGroup.MISC)));
-		
-		System.out.println("Hello Fabric world!");
 	}
 }

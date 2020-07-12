@@ -1,7 +1,6 @@
 package io.github.coolmineman.makeminecrafthardagain.rock;
 
 import io.github.cottonmc.cotton.gui.widget.WSprite;
-import io.github.cottonmc.cotton.gui.widget.WWidget;
 import net.fabricmc.api.EnvType;
 import net.fabricmc.api.Environment;
 import net.minecraft.client.MinecraftClient;
@@ -13,7 +12,8 @@ import net.minecraft.util.Identifier;
 public class WKnapButton extends WSprite {
     private static final Identifier imageid = new Identifier("mmha:textures/gui/knapped_overlay.png");
     private RockGUI yes;
-    private int knapx, knapy;
+    private int knapx;
+    private int knapy;
 
     WKnapButton(RockGUI yes, int knapx, int knapy) {
         super(imageid);
