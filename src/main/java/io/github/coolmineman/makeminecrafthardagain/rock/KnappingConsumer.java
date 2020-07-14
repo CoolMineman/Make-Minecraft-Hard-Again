@@ -26,7 +26,7 @@ public class KnappingConsumer implements PacketConsumer {
             if (!a.getItem().equals(MMHA.ROCK)) {
                 return;
             }
-            if (a.getCount() > 2) {
+            if (a.getCount() > 1) {
                 ItemStack output = RockKnappingRecipies.getRecipe(knapped).copy();
                 if (!output.isEmpty()) {
                     a.decrement(1);
