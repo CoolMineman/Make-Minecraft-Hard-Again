@@ -3,13 +3,13 @@
   "id": "mmha",
   "version": "${version}",
   "name": "Make Minecraft Hard Again",
-  "description": "title",
+  "description": "See https://www.curseforge.com/minecraft/mc-mods/make-minecraft-hard-again\n\nThis program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.",
   "authors": [
     "ThatTrollzer/CoolMineman"
   ],
   "contact": {
-    "homepage": "No",
-    "sources": "No"
+    "homepage": "https://github.com/CoolMineman/Make-Minecraft-Hard-Again",
+    "sources": "https://github.com/CoolMineman/Make-Minecraft-Hard-Again"
   },
   "license": "This program is free software: you can redistribute it and/or modify it under the terms of the GNU Lesser General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.\nThis program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details. You should have received a copy of the GNU General Public License along with this program. If not, see <https://www.gnu.org/licenses/>.",
   "icon": "assets/mmha/icon.png",
